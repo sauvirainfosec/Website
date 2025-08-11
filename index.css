@@ -35,7 +35,6 @@
 
 .u-section-1 .u-text-2 {
   font-size: 1.25rem;
-  font-style: italic;
   margin: 20px 0 0 34px;
 }
 
@@ -236,7 +235,7 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 932px;
+    min-height: 632px;
   }
 
   .u-section-2 .u-group-1 {
