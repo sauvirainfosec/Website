@@ -6,6 +6,10 @@
   min-height: 823px;
 }
 
+span.text{
+ margin: -42px 0 12px 496px;
+}
+
 .u-section-1 .u-image-1 {
   object-position: 50% 50%;
   width: 1003px;
