@@ -131,7 +131,7 @@ footer{background:var(--panel);box-shadow:0 0 0 100vmax var(--panel);clip-path:i
 @media(min-width:761px) and (max-width:1000px){.leadership-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.leader{padding:20px}.leader h3{font-size:1.2rem}}
 @media(max-width:760px){
 .wrap,.full-image-hero .hero-copy{width:calc(100% - 40px)}
-.header{flex-wrap:nowrap}.header .brand{font-size:17px;gap:7px}.menu-toggle{min-height:44px;flex-shrink:0}.header>.button{min-height:44px}
+.header{flex-wrap:nowrap}.header .brand{font-size:17px;gap:7px}.menu-toggle{min-height:44px;flex-shrink:0}.header>.button{display:none}.menu-toggle{margin-left:auto}
 .full-image-hero{min-height:570px;padding-block:60px}.full-image-hero h1{max-width:620px}.full-image-hero .actions{gap:20px}.full-image-hero p{font-size:1rem;line-height:1.65}
 .case-hero:before{background:rgba(11,18,32,.75)}
 .section{padding-block:52px}
