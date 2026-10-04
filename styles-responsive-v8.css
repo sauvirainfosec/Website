@@ -156,7 +156,7 @@ footer{padding:60px 0 0!important;border-top:1px solid var(--line)}
 .footer-col nav{display:flex!important;flex-direction:column!important;gap:10px}
 .footer-col nav a{color:var(--muted);font-size:.875rem;transition:color .2s;display:block}
 .footer-col nav a:hover{color:var(--text)}
-.footer-contact p,.footer-contact address{color:var(--muted);font-size:.875rem;line-height:1.7;font-style:normal;margin:0 0 12px}
+.footer-contact p:not(.footer-col-title),.footer-contact address{color:var(--muted);font-size:.875rem;line-height:1.7;font-style:normal;margin:0 0 12px}
 .footer-contact a{color:var(--muted);text-decoration:none;transition:color .2s}
 .footer-contact a:hover{color:var(--accent)}
 .footer-social-links{display:flex;flex-direction:column;gap:10px}
