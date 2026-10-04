@@ -136,9 +136,9 @@ footer{background:var(--panel);box-shadow:0 0 0 100vmax var(--panel);clip-path:i
 .case-hero:before{background:rgba(11,18,32,.75)}
 .section{padding-block:52px}
 .sector-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}.sector-gallery img{height:auto;aspect-ratio:4/3}.sector-gallery h3{font-size:1rem;margin:14px 0 18px}
-.cap-grid,.case-grid,.leadership-grid,.service-pillars{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,85%);grid-template-columns:none;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:0;padding-bottom:16px;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#C8A24A #1C2433}
+.cap-grid,.case-grid,.leadership-grid,.service-pillars{display:grid;grid-auto-flow:column;grid-auto-columns:85%;grid-template-columns:none;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:0;padding-bottom:16px;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#C8A24A #1C2433}
 .cap-grid>article,.case-grid>article,.leadership-grid>article,.service-pillars>article{scroll-snap-align:start;min-width:0}
-.cap-grid{border:0}.cap-card,.cap-card+.cap-card{border:1px solid var(--line);padding:23px}.cap-card h3{min-height:0}.case-card{padding:24px}.case-card h3{font-size:1.5rem}.case-card dd{font-size:.9375rem}.capability-photo{height:190px}.service-pillars h3{font-size:1.3rem}
+.cap-grid{border:0}.capabilities .cap-grid{margin-top:12px!important;margin-bottom:0!important}.cap-card,.cap-card+.cap-card{border:1px solid var(--line);padding:23px}.cap-card h3{min-height:0}.case-card{padding:24px}.case-card h3{font-size:1.5rem}.case-card dd{font-size:.9375rem}.capability-photo{height:190px}.service-pillars h3{font-size:1.3rem}
 .mobile-swipe-hint{display:block;color:#C8A24A;font-size:.75rem;margin:16px 0 0;letter-spacing:.03em}
 .about-pillars:not(.service-pillars),.team-preview{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}.about-pillars:not(.service-pillars)>article:last-child,.team-preview>article:last-child{grid-column:1/-1}.about-pillars:not(.service-pillars) h3{font-size:1.15rem}.team-preview h3{font-size:1.1rem}
 .steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}.steps h3{font-size:1.15rem}
