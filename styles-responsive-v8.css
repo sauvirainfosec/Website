@@ -179,3 +179,22 @@ footer{padding:60px 0 0!important;border-top:1px solid var(--line)}
 /* Keep About hero h1 first line on one line */
 .about-hero h1{white-space:nowrap}
 @media(max-width:760px){.about-hero h1{white-space:normal}}
+
+/* ── MOBILE: CENTRED SECTION HEADINGS ── */
+@media(max-width:760px){
+main section:not(.hero):not(.full-image-hero)>.eyebrow,main section>.wrap>.eyebrow,
+main section>h2,main section>.wrap>h2,.split>h2,.split>p,.split>div>h2,.split>div>p,.split>div:not(.purpose-visual)>p,
+.mobile-swipe-hint,.final-cta,.incident>div{text-align:center}
+.section-top{flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center}
+.split>div>.text-link,.final-cta .button,.incident-action .button{margin-inline:auto}
+.split>div>.text-link{justify-content:center;display:flex}
+main section:not(.hero):not(.full-image-hero)>.eyebrow,main section>.wrap>.eyebrow,.final-cta>.eyebrow,.incident .eyebrow{display:block}
+.incident .eyebrow{display:flex;justify-content:center}
+.hero-base{justify-content:center;text-align:center}
+.final-cta>div,.final-cta>div>div{flex-direction:column;align-items:center;text-align:center}
+.system-head,.system-foot{display:none!important}.hero-copy{text-align:center}.hero-copy>p{margin-inline:auto}.hero-copy .actions{justify-content:center;flex-wrap:nowrap;gap:12px}.hero-copy .actions>*{flex:1 1 0;min-width:0;justify-content:center;text-align:center;font-size:.875rem;padding-inline:10px}.hero-copy .actions>.text-link{border:1px solid #C8A24A!important;color:#C8A24A!important;background:rgba(11,18,32,.7);min-height:0;align-self:stretch;display:flex;align-items:center;gap:6px}.hero-copy .actions>.text-link span{color:#C8A24A}.hero-copy>.button{margin-inline:auto}.full-image-hero h1{margin-inline:auto}
+}
+
+/* ── DESKTOP: KEEP TWO-LINE SECTION TITLES ── */
+@media(min-width:761px){.difference .purpose-copy h2,.featured-case .split h2{white-space:nowrap;max-width:none}.difference .purpose-copy,.featured-case .split>div{max-width:none;overflow:visible}}
+@media(min-width:761px){.about-purpose .split>div{justify-self:end;margin-left:auto}.about-purpose .split>div>p{margin-left:auto;margin-right:0}#approach .split>p{justify-self:end;margin-left:auto;margin-right:0}}
